@@ -1,6 +1,6 @@
 from PIL import Image 
 import telebot
-bot=telebot.TeleBot (('8265614198:AAFxfIUks6qm_5iSaQldUWwH5UaQvyhaGI8')) 
+bot=telebot.TeleBot (('')) 
 @bot.message_handler(commands=['start'])
 def start_message (message):
     bot.send_sticker (message.chat.id,'CAACAgIAAxkBAAETh49pAztPETOma_wBmnUXLiqVEd6nagACNB8AAuc68ErWMLmD961M-jYE')
